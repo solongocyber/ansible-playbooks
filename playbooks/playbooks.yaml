@@ -9,15 +9,3 @@
       name: httpd
       state: installed
 
-
-
-  - name: Install Telnet
-    package:
-      name: telnet
-      state: installed
-
-
-  - name: Add Solongo
-    package:
-      name: httpd
-      state: present
