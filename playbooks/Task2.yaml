@@ -1,6 +1,6 @@
 ---
     - name: ec2
-      hosts: 
+      hosts: local
       tasks: 
         - ec2:
             key_name: ansible
