@@ -6,6 +6,8 @@
       ignore_errors: true
       tasks: 
         - ec2:
+
+
  
             
             key_name: ansible
@@ -18,8 +20,9 @@
             vpc_subnet_id: subnet-05b04e0d2bd1ee693 
             assign_public_ip: yes
             region: us-east-1
-            aws_access_key: ......
-            aws_secret_key: ......
+            
+
+
 
 
 
